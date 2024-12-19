@@ -67,6 +67,19 @@ function Hero() {
             onLoadedData={handleVideoLoad}
           />
         </div>
+        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
+          G<b>a</b>ming
+        </h1>
+        <div className="absolute top-0 left-0 z-40 size-full">
+          <div className="mt-24 sm:mt-14 px-5 sm:px-10">
+            <h1 className="special-font hero-heading text-blue-100">
+              redefi<b>n</b>e
+            </h1>
+            <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
+              Enter the Meta Game Layer <br /> Unleash The Play Economy
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
