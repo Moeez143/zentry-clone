@@ -3,6 +3,7 @@ import "./styles/index.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
+import Features from "./components/Features";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Features />
       <section className="z-10 min-h-screen bg-blue-500" />
     </main>
   );
