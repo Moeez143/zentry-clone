@@ -32,6 +32,10 @@ function Hero() {
     if (loadedVideos === totalVideos - 2) {
       setIsLoading(false);
     }
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
   }, [loadedVideos]);
 
   useGSAP(() => {
