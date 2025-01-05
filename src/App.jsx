@@ -18,7 +18,7 @@ function App() {
       <Story />
       <Contact />
       <Footer />
-      <section className="z-10 min-h-screen bg-blue-500" />
+      {/* <section className="z-10 min-h-screen bg-blue-500" /> */}
     </main>
   );
 }
